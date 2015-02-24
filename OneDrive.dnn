@@ -1,0 +1,82 @@
+<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="OneDrive" type="Module" version="01.00.00">
+      <friendlyName>OneDrive</friendlyName>
+      <description>LinkWise OneDrive module</description>
+      <iconFile>DesktopModules/LinkWise/OneDrive/Images/one-drive-32x32.png</iconFile>
+      <owner>
+        <name>LinkWise</name>
+        <organization>LinkWise</organization>
+        <url>http://linkwise.ie</url>
+        <email>info@linkwise.ie</email>
+      </owner>
+      <license src="License.txt"></license>
+      <releaseNotes src="ReleaseNotes.txt"></releaseNotes>
+      <dependencies>
+        <dependency type="CoreVersion">07.00.02</dependency>
+      </dependencies>
+      
+      <components>
+        <component type="Script">
+          <scripts>
+            <basePath>DesktopModules\LinkWise\OneDrive</basePath>
+            <script type="Install">
+              <path>Providers\DataProviders\SqlDataProvider</path>
+              <name>01.00.00.SqlDataProvider</name>
+              <version>01.00.00</version>
+            </script>
+            <script type="UnInstall">
+              <path>Providers\DataProviders\SqlDataProvider</path>
+              <name>Uninstall.SqlDataProvider</name>
+              <version>01.00.00</version>
+            </script>
+          </scripts>
+        </component>
+
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>DesktopModules/LinkWise/OneDrive</basePath>
+            <resourceFile>
+              <name>Resources.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+
+        <component type="Module">
+          <desktopModule>
+            <moduleName>OneDrive</moduleName>
+            <foldername>OneDrive</foldername>
+            <businessControllerClass>LinkWise.Modules.OneDrive.Components.FeatureController</businessControllerClass>
+            <supportedFeatures />
+            <moduleDefinitions>
+              <moduleDefinition>
+                <friendlyName>OneDrive</friendlyName>
+                <defaultCacheTime>0</defaultCacheTime>
+                <moduleControls>
+                  <moduleControl>
+                    <controlKey />
+                    <controlSrc>DesktopModules/LinkWise/OneDrive/View.ascx</controlSrc>
+                    <supportsPartialRendering>False</supportsPartialRendering>
+                    <controlTitle />
+                    <controlType>View</controlType>
+                    <iconFile />
+                    <helpUrl />
+                    <viewOrder>0</viewOrder>
+                  </moduleControl>
+                </moduleControls>
+              </moduleDefinition>
+            </moduleDefinitions>
+          </desktopModule>
+        </component>
+        <component type="Assembly">
+          <assemblies>
+            <assembly>
+              <name>LinkWise.Modules.OneDrive.dll</name>
+              <path>bin</path>
+            </assembly>
+          </assemblies>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>

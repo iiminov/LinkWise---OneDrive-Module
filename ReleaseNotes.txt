@@ -1,0 +1,14 @@
+﻿<h3>OneDrive</h3>
+<p class="Contributor">
+	LinkWise <br />
+	<a href="mailto:info@linkwise.ie">info@linkwise.ie</a><br />
+	<a href=http://linkwise.ie>http://linkwise.ie</a><br />
+</p>
+<hr/>
+<div class="License">
+	<h3>About the OneDrive</h3>
+	<p class="Owner">
+		<b>Version v1.0.0</b>
+	</p>
+	<p>Description about version.</p>
+</div>

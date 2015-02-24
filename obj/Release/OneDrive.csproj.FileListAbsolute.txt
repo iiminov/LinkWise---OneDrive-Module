@@ -1,0 +1,6 @@
+C:\hosting\devsite1.me\bin\LinkWise.Modules.OneDrive.dll.config
+C:\hosting\devsite1.me\bin\LinkWise.Modules.OneDrive.dll
+C:\hosting\devsite1.me\bin\LinkWise.Modules.OneDrive.pdb
+C:\hosting\devsite1.me\DesktopModules\LinkWise\OneDrive\obj\Release\LinkWise.Modules.OneDrive.dll
+C:\hosting\devsite1.me\DesktopModules\LinkWise\OneDrive\obj\Release\LinkWise.Modules.OneDrive.pdb
+C:\hosting\devsite1.me\DesktopModules\LinkWise\OneDrive\obj\Release\OneDrive.csprojResolveAssemblyReference.cache
